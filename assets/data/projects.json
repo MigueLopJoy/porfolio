@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Angular 17 + Spring Boot Chat",
+        "technologies": ["Angular 17", "Spring Boot", "Spring Security"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non.",
+        "video": "https://www.youtube.com/embed/BjpEB7pCZZw?si=1Oyo1O_skMr0LckB"
+    },
+    {
+        "id": 2,
+        "title": "Bootstrap Website Layout",
+        "technologies": ["HTML", "CSS", "Bootstrap"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non.",
+        "video": "https://www.youtube.com/watch?v=BjpEB7pCZZw"    
+    },
+    {
+        "id": 3,
+        "title": "Vanilla Javascript Local Storage Task List",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non.",
+        "video": "https://www.youtube.com/embed/_kjMcoNs66w?si=3oPHNNaXvcUKyNtT"    
+    },
+    {
+        "id": 4,
+        "title": "Vanilla Javascript Calculator",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non.",
+        "video": "https://www.youtube.com/watch?v=BjpEB7pCZZw"    
+    },
+    {
+        "id": 5,
+        "title": "Dynamic Country Selector Dropdown Input",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non.",
+        "video": "https://www.youtube.com/watch?v=BjpEB7pCZZw"    
+    }
+]

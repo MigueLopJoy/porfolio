@@ -3572,6 +3572,24 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   /* Handle */
 }
 
+.portfolio-modal-box ul {
+  padding-left: 1rem;
+}
+
+.portfolio-modal-box li {
+  margin-bottom: 1rem;
+}
+
+.portfolio-modal-box .modal-logo-icon {
+  width: 18px;
+  margin-right: .75rem;
+}
+
+.portfolio-modal-box iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-modal-box .modal-dialog {
     max-width: 660px;

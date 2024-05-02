@@ -40,7 +40,7 @@
   // dark mood start
   var darktoggle = document.querySelector(".dark-btn-icon");
   var home1bgimg = document.querySelector(".page-wrapper");
-  var home2bgimg = document.querySelector(".page-wrapper-2");
+  var profileimg = document.querySelector(".bostami-parsonal-info-img img");
 
   // Function to toggle the dark theme
   function toggleDarkTheme() {
@@ -54,11 +54,12 @@
     if (isDarkTheme) {
       darktoggle.src = "assets/img/icon/sun-icon.png";
       home1bgimg.style.backgroundImage =
-        "url('assets/img/bg/page-bg-dark-1.jpg')";
+        "url('assets/img/bg/page-bg-dark-1.jpeg')";
+      profileimg.src = "assets/img/parsonal-info/parson-img-dark.png"
     } else {
       darktoggle.src = "assets/img/icon/mon-icon.png";
-      home1bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-1.jpg')";
-      home2bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-1.jpg')";
+      home1bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-3.jpeg')";
+      profileimg.src = "assets/img/parsonal-info/parson-img-3.png"
     }
   }
   // Check if the user preference is already stored in local storage
@@ -70,7 +71,12 @@
       $("body").addClass("dark-theme");
       darktoggle.src = "assets/img/icon/sun-icon.png";
       home1bgimg.style.backgroundImage =
-        "url('assets/img/bg/page-bg-dark-1.jpg')";
+        "url('assets/img/bg/page-bg-dark-1.jpeg')";
+      profileimg.src = "assets/img/parsonal-info/parson-img-dark.png";
+    } else {
+      darktoggle.src = "assets/img/icon/mon-icon.png";
+      home1bgimg.style.backgroundImage = "url('assets/img/bg/page-bg-3.jpeg')";
+      profileimg.src = "assets/img/parsonal-info/parson-img-3.png"
     }
 
     // Attach click event to the specified div
@@ -150,6 +156,49 @@
 
   enableMasonry2();
   // portfolio filter end
+
+  $(document).ready(function() {
+
+    var techImageMap = {
+      "Angular 17": "angular.png",
+      "Spring Boot": "spring.png",
+      "Spring Security": "spring-security.png",
+      "JWT": "jwt.png",
+      "HTML": "html.png",
+      "CSS": "css.png",
+      "Bootstrap": "bootstrap.png",
+      "Javascript": "JS.png"
+  };
+
+  $('[data-bs-toggle="modal"]').on('click', function() {
+      var projectId = $(this).data('id'); // Obtener el ID del proyecto
+      loadProjectData(projectId); // Función para cargar los datos
+  });
+
+  function loadProjectData(id) {
+      $.getJSON('assets/data/projects.json', function(data) {
+        var project = data.find(p => p.id === id); 
+        if (project) {
+          $('.modal .blog-title').text(project.title);
+          $('.modal .h1-modal-paragraph').html('<p>' + project.description + '</p>');
+
+          var techListHtml = '<ul class="tech-list">';
+          project.technologies.forEach(function(tech) {
+              var imageName = techImageMap[tech]; 
+              techListHtml += '<li><img width="24" src="assets/img/tech/' + imageName + '" alt="' + tech + ' logo" class="modal-logo-icon"><span>' + tech + '</span></li>';
+          });
+          techListHtml += '</ul>';
+
+          $('.modal .portfolio-modal-technologies').html(techListHtml);
+
+          console.log(project.video)
+          $('.modal .h1-modal-video-iframe iframe').attr('src', project.video);
+
+        }
+      });
+  }
+});
+
 
   // blog slider start
   if (jQuery(".blog-slider-active").length > 0) {
