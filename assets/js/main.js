@@ -82,31 +82,32 @@
   if (jQuery(".client_slide_active").length > 0) {
     let acooterbrand = new Swiper(".client_slide_active", {
       slidesPerView: 4,
+      disableOnInteraction: false,
       loop: true,
       rtl: false,
       infinite: true,
       autoplay: {
-        delay: 4000,
+        delay: 1500,
       },
 
       breakpoints: {
         0: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
         480: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
         576: {
-          slidesPerView: 2,
+          slidesPerView: 3,
         },
         768: {
-          slidesPerView: 3,
+          slidesPerView: 4,
         },
         992: {
           slidesPerView: 4,
         },
         1200: {
-          slidesPerView: 5,
+          slidesPerView: 4,
         },
       },
     });
