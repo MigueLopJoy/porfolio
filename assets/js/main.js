@@ -167,7 +167,8 @@
       "HTML": "html.png",
       "CSS": "css.png",
       "Bootstrap": "bootstrap.png",
-      "Javascript": "JS.png"
+      "Javascript": "JS.png",
+      "PHP": "php.png"
   };
 
   $('[data-bs-toggle="modal"]').on('click', function() {
@@ -180,7 +181,10 @@
         var project = data.find(p => p.id === id); 
         if (project) {
           $('.modal .blog-title').text(project.title);
-          $('.modal .h1-modal-paragraph').html('<p>' + project.description + '</p>');
+          
+          $('.modal .portfolio-modal-info').html(project.info);
+
+          $('.modal .portfolio-modal-github').attr('href', project.github);
 
           var techListHtml = '<ul class="tech-list">';
           project.technologies.forEach(function(tech) {
@@ -191,7 +195,6 @@
 
           $('.modal .portfolio-modal-technologies').html(techListHtml);
 
-          console.log(project.video)
           $('.modal .h1-modal-video-iframe iframe').attr('src', project.video);
 
         }

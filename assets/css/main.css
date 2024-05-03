@@ -3567,9 +3567,6 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   padding: 30px;
   border-radius: 20px;
   border: none;
-  /* width */
-  /* Track */
-  /* Handle */
 }
 
 .portfolio-modal-box ul {
@@ -3583,6 +3580,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .portfolio-modal-box .modal-logo-icon {
   width: 18px;
   margin-right: .75rem;
+}
+
+.portfolio-modal-box .portfolio-modal-info ul {
+  padding-left: 2rem;
+  list-style: circle;
 }
 
 .portfolio-modal-box iframe {
