@@ -3533,6 +3533,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: var(--theme-primary);
 }
 
+.isotop-item {
+  cursor: pointer;
+}
+
 .isotop-item,
 .grid-sizer {
   width: 50%;
