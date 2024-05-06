@@ -36,7 +36,7 @@
         "video": "https://www.youtube.com/embed/M_EvDNdBv-w?si=qTiBzpr51MnMCOW4"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Node JS + Mongo DB + Vanilla JS Stock Manager",
         "technologies": [
             "Node JS",
@@ -46,18 +46,6 @@
         "github": "https://github.com/mlrcodes/Stock_manager",
         "info": "Stock manager for warehouses, developed using the frontend trio of HTML, CSS, and JS, and leveraging Node.js and MongoDB on the server side. It allows the creation of new products through a form, as well as the execution of advanced searches using a criteria-based filtering system. Lastly, it presents the obtained results in tables and enables operations for editing and deleting products.",
         "video": "https://www.youtube.com/embed/d_wu6ECgJ5Q?si=C1iErjfX7dmgZS7r"
-    },
-    {
-        "id": 4,
-        "title": "PHP Multi User Tasks Manager",
-        "technologies": [
-            "PHP",
-            "HTML",
-            "CSS"
-        ],
-        "github": "https://github.com/mlrcodes/PHP-Multi-User-Task-Manager",
-        "info": "Monolithic, multi-user task manager built entirely in PHP. It features a session-based authentication system and uses a JSON file to emulate a database. Additionally, it employs object-oriented PHP, enhancing the structure and maintainability of the code.",
-        "video": "https://www.youtube.com/embed/gOQ8n7ZsJb4?si=QwXGx3ed8i2CvNQr"
     },
     {
         "id": 5,
@@ -70,5 +58,17 @@
         "github": "https://github.com/mlrcodes/local-storage-tasks-list",
         "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non.",
         "video": "https://www.youtube.com/embed/_kjMcoNs66w?si=3oPHNNaXvcUKyNtT"
+    },
+    {
+        "id": 6,
+        "title": "PHP Multi User Tasks Manager",
+        "technologies": [
+            "PHP",
+            "HTML",
+            "CSS"
+        ],
+        "github": "https://github.com/mlrcodes/PHP-Multi-User-Task-Manager",
+        "info": "Monolithic, multi-user task manager built entirely in PHP. It features a session-based authentication system and uses a JSON file to emulate a database. Additionally, it employs object-oriented PHP, enhancing the structure and maintainability of the code.",
+        "video": "https://www.youtube.com/embed/gOQ8n7ZsJb4?si=QwXGx3ed8i2CvNQr"
     }
 ]
