@@ -174,8 +174,8 @@
       "HTML, CSS & JS": "html-css-js.png"
     };
 
-    $('[data-bs-toggle="modal"]').on('click', function () {
-      var projectId = $(this).data('id');
+    $('.isotop-item').on('click', function () {
+      var projectId = $(this).find('[data-id]').data('id');
       loadProjectData(projectId);
     });
 
@@ -199,7 +199,6 @@
           $('.modal .portfolio-modal-technologies').html(techListHtml);
 
           $('.modal .h1-modal-video-iframe iframe').attr('src', project.video);
-
         }
       });
     }

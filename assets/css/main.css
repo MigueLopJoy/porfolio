@@ -3746,6 +3746,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 }
 
+@media (max-width: 575px) {
+  .portfolio-modal-box .modal-dialog .modal-content .modal-body .blog-title {
+    margin-top: 60px;
+  }
+}
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table {
   margin-bottom: 20px;
 }
