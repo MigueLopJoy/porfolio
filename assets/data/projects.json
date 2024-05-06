@@ -7,7 +7,7 @@
             "Spring Boot",
             "Spring Security"
         ],
-        "github": "https://github.com/MlrDevs97/Angular-17-Spring-Boot-Chat",
+        "github": "https://github.com/mlrcodes/Angular-17-Spring-Boot-Chat",
         "info": "Real-time multi-user chat platform built with Spring Boot and Angular 17. This platform allows registered users to add contacts and communicate in real time with each other through the use of websockets, also ensuring security through a token-based JWT authentication system.",
         "video": "https://www.youtube.com/embed/BjpEB7pCZZw?si=1Oyo1O_skMr0LckB"
     },
@@ -19,7 +19,7 @@
             "CSS",
             "Bootstrap"
         ],
-        "github": "https://mlrdevs97.github.io/",
+        "github": "https://mlrcodes.github.io/",
         "info": "Web interface for a randomly themed ecommerce. Fully responsive design built following a mobile-first design pattern using the Bootstrap web layout framework. This is a project that lacks interactivity, with the sole purpose of demonstrating my skills in the design and layout process with Bootstrap.",
         "video": "https://www.youtube.com/embed/9KCeeRqZsxE?si=adYDw7WXdLpY5PlU"
     },
@@ -31,9 +31,9 @@
             "Node JS",
             "Mongo DB"
         ],
-        "github": "https://github.com/MlrDevs97/Stock_manager",
-        "info": "This application is a stock manager for warehouses, developed using the frontend trio of HTML, CSS, and JS, and leveraging Node.js and MongoDB on the server side. It allows the creation of new products through a form, as well as the execution of advanced searches using a criteria-based filtering system. Lastly, it presents the obtained results in tables and enables operations for editing and deleting products.",
-        "video": "https://www.youtube.com/embed/d_wu6ECgJ5Q?si=C1iErjfX7dmgZS7r"
+        "github": "https://github.com/mlrcodes/MEAN-Stack-PrimeNG-UI-Store-Admin",
+        "info": "Content manager for an online store developed with the MEAN stack and PrimeNG UI components. It allows performing operations for creating, editing, and updating products in a MongoDB database from an Angular 17 client communicating with a Node.js server. The implementation utilizes specific features of Angular such as reactive forms, custom typing, and services for HTTP communication and interaction between components, as well as managing component lifecycle.",
+        "video": "https://www.youtube.com/embed/M_EvDNdBv-w?si=qTiBzpr51MnMCOW4"
     },
     {
         "id": 3,
@@ -43,8 +43,8 @@
             "Mongo DB",
             "HTML, CSS & JS"
         ],
-        "github": "https://github.com/MlrDevs97/Stock_manager",
-        "info": "This application is a stock manager for warehouses, developed using the frontend trio of HTML, CSS, and JS, and leveraging Node.js and MongoDB on the server side. It allows the creation of new products through a form, as well as the execution of advanced searches using a criteria-based filtering system. Lastly, it presents the obtained results in tables and enables operations for editing and deleting products.",
+        "github": "https://github.com/mlrcodes/Stock_manager",
+        "info": "Stock manager for warehouses, developed using the frontend trio of HTML, CSS, and JS, and leveraging Node.js and MongoDB on the server side. It allows the creation of new products through a form, as well as the execution of advanced searches using a criteria-based filtering system. Lastly, it presents the obtained results in tables and enables operations for editing and deleting products.",
         "video": "https://www.youtube.com/embed/d_wu6ECgJ5Q?si=C1iErjfX7dmgZS7r"
     },
     {
@@ -55,7 +55,7 @@
             "HTML",
             "CSS"
         ],
-        "github": "https://github.com/MlrDevs97/PHP-Multi-User-Task-Manager",
+        "github": "https://github.com/mlrcodes/PHP-Multi-User-Task-Manager",
         "info": "Monolithic, multi-user task manager built entirely in PHP. It features a session-based authentication system and uses a JSON file to emulate a database. Additionally, it employs object-oriented PHP, enhancing the structure and maintainability of the code.",
         "video": "https://www.youtube.com/embed/gOQ8n7ZsJb4?si=QwXGx3ed8i2CvNQr"
     },
@@ -67,7 +67,7 @@
             "CSS",
             "Javascript"
         ],
-        "github": "https://github.com/MlrDevs97/local-storage-tasks-list",
+        "github": "https://github.com/mlrcodes/local-storage-tasks-list",
         "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non.",
         "video": "https://www.youtube.com/embed/_kjMcoNs66w?si=3oPHNNaXvcUKyNtT"
     }
