@@ -157,7 +157,7 @@
   enableMasonry2();
   // portfolio filter end
 
-  $(document).ready(function() {
+  $(document).ready(function () {
 
     var techImageMap = {
       "Angular 17": "angular.png",
@@ -168,28 +168,31 @@
       "CSS": "css.png",
       "Bootstrap": "bootstrap.png",
       "Javascript": "JS.png",
-      "PHP": "php.png"
-  };
+      "PHP": "php.png",
+      "Mongo DB": "mongo.png",
+      "Node JS": "node.png",
+      "HTML, CSS & JS": "html-css-js.png"
+    };
 
-  $('[data-bs-toggle="modal"]').on('click', function() {
-      var projectId = $(this).data('id'); // Obtener el ID del proyecto
-      loadProjectData(projectId); // Función para cargar los datos
-  });
+    $('[data-bs-toggle="modal"]').on('click', function () {
+      var projectId = $(this).data('id');
+      loadProjectData(projectId);
+    });
 
-  function loadProjectData(id) {
-      $.getJSON('assets/data/projects.json', function(data) {
-        var project = data.find(p => p.id === id); 
+    function loadProjectData(id) {
+      $.getJSON('assets/data/projects.json', function (data) {
+        var project = data.find(p => p.id === id);
         if (project) {
           $('.modal .blog-title').text(project.title);
-          
+
           $('.modal .portfolio-modal-info').html(project.info);
 
           $('.modal .portfolio-modal-github').attr('href', project.github);
 
           var techListHtml = '<ul class="tech-list">';
-          project.technologies.forEach(function(tech) {
-              var imageName = techImageMap[tech]; 
-              techListHtml += '<li><img width="24" src="assets/img/tech/' + imageName + '" alt="' + tech + ' logo" class="modal-logo-icon"><span>' + tech + '</span></li>';
+          project.technologies.forEach(function (tech) {
+            var imageName = techImageMap[tech];
+            techListHtml += '<li><img width="24" src="assets/img/tech/' + imageName + '" alt="' + tech + ' logo" class="modal-logo-icon"><span>' + tech + '</span></li>';
           });
           techListHtml += '</ul>';
 
@@ -199,8 +202,8 @@
 
         }
       });
-  }
-});
+    }
+  });
 
 
   // blog slider start
